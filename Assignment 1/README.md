@@ -8,7 +8,7 @@ Given a color RGB input image, we can extract the blue channel by setting red an
 
 ![image](https://user-images.githubusercontent.com/76612427/115183738-47309380-a091-11eb-80ba-f0dda1a5b2a3.png)
 
-A greyscale image can be manually optained as seen above by using ITU-R 601-2 luma transform:
+A greyscale image can be manually optained by using ITU-R 601-2 luma transform:
 
 ```
 L = R * 299/1000 + G * 587/1000 + B * 114/1000
