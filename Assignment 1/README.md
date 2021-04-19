@@ -32,6 +32,6 @@ Histogram after changing contrast of an image:
 
 ![image](https://user-images.githubusercontent.com/76612427/115184366-89a6a000-a092-11eb-8d89-bceac1f64a45.png)
 
-Given a greyscale input image and a color reference, with using histograms, we can color match:
+Given a greyscale input image and a color reference, we can match color by using histograms:
 
 ![image](https://user-images.githubusercontent.com/76612427/115184393-96c38f00-a092-11eb-80de-741e4c01fe86.png)
