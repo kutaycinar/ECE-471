@@ -1,4 +1,4 @@
-# Programming: introduction to Python, Colab and OpenCV
+# Programming: Introduction to Python, Colab and OpenCV
 
 ## Basic image operations 
 
