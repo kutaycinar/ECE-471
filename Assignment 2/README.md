@@ -1,4 +1,4 @@
-# HOG: Pre-processing, magniture and orientation calculation
+# HOG: Pre-processing, Magniture and Orientation Calculation
 
 Histogram of oriented gradients (HOG) are popular feature descriptors. These feature descriptors are obtained as the output of an intricate computational pipeline and implemented in this project. All steps until the "Linear SVM" phase of the method are manually implemented.
 
@@ -22,11 +22,11 @@ Plotted magnitude of input image:
 
 After computing the orientation and magnitude images (matrices) of a given grayscale input. The next step is to divide the grayscale input into 8x8 non-overlapping cells and create, for each cell, a histogram of oriented gradients. The HOG formation is illustrated in the image below (considering a small 3x3 cell):
 
-## 2 x 2 cell block normalization
+## 2 x 2 cell Block Normalization
 
 The last step in calculating the HOG feature descriptor is to normalize blocks containing multiple cells to compensate for lighting and contrast changes. Blocks composed by 2 x 2 cells are used (i.e., 16x16 pixels for cell_size=8) with an L-2 norm normalization scheme. 
 
-## Visualizing HOG features
+## Visualizing HOG Features
 
 The HOG features are represented as a row vector (i.e., flattened matrix). Considering a 128 x 64 image, cells of 8 x 8 pixels, HOGs of 9 bins and blocks of 2 x 2 cells, such row vector must have dimensions 1 x 3780. One could create a function to overlay each block on top of its corresponding position in the image and represent the "n_bin" different directions with arrows of changing lengths (magnitudes).
 
