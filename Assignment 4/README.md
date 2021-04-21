@@ -99,5 +99,9 @@ The last segment involves the calculation of the performance of the trained mode
 ```
 Testing accuracy: 0.985
 ```
+![image](https://user-images.githubusercontent.com/76612427/115478975-33ee0700-a1fc-11eb-8d20-2bded06b2a84.png)
+![image](https://user-images.githubusercontent.com/76612427/115478980-35b7ca80-a1fc-11eb-96e7-86f170a9f6d3.png)
 ![image](https://user-images.githubusercontent.com/76612427/115478707-8e3a9800-a1fb-11eb-9f8e-5270052bde7d.png)
+![image](https://user-images.githubusercontent.com/76612427/115478985-38b2bb00-a1fc-11eb-9389-868c5e193290.png)
+![image](https://user-images.githubusercontent.com/76612427/115478989-3c464200-a1fc-11eb-8772-6cca4082aa7f.png)
 
