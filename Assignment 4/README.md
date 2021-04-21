@@ -11,7 +11,7 @@ mnist_test = datasets.MNIST('', train=False, download=True, transform=transforms
 
 # Convolutional Neural Network Creation
 
-A small Convolutional Neural Network (CNN) is created in this segment to perform an image classification task on the handwritten digits dataset. This network is specified by defining its architecture and forward passes (the backward pass, where backpropagation happens, is automatically implemented by torch.autograd).
+A small Convolutional Neural Network (CNN) is created to perform an image classification task on the handwritten digits dataset. This network is specified by defining its architecture and forward passes (the backward pass, where backpropagation happens, is automatically implemented by torch.autograd).
 
 ```
 ----------------------------------------------------------------
@@ -38,7 +38,7 @@ Estimated Total Size (MB): 0.97
 
 Loss functions are able to calculate how close to a given ground truth value a set of predictions are. The losses calculated serve as the basis for backpropagation methods.
 
-In this segment a function is created to manually calculate the cross-entropy loss of a set of predictions and compare it with that calculated by Pytorch. SVM Multiclass loss is also calculated for illustration purposes.
+A function is created to manually calculate the cross-entropy loss of a set of predictions and compare it with that calculated by Pytorch. SVM Multiclass loss is also calculated for illustration purposes.
 
 ```
 Manual cross-entropy loss: 2.2924874871969223
@@ -50,7 +50,7 @@ Multiclass SVM Loss: 0.8851147294044495
 
 Togheter with the creation of a network, the training routine represents the most important aspect of a DL-based image classification framework.
 
-This segment implements a training loop that predicts scores from batches of samples from the training set, and based on the losses (and gradients) calculated, updates the values of the network's parameters.
+A training loop is implemented that predicts scores from batches of samples from the training set, and based on the losses (and gradients) calculated, updates the values of the network's parameters.
 
 ```
 Updated the best model!
