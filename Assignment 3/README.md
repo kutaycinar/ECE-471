@@ -1,8 +1,8 @@
 # Dataloading, feature extraction, model training and evaluation for image classification
 
-After collecting and creating a 240 image dataset with for three classes (boat, ship, guitar), they are shuffled and then paritioned into test, train and validation sets.
+After collecting and creating a 240 image dataset for three classes (boat, ship, guitar), they are shuffled and then paritioned into test, train and validation sets.
 
-Example shuffled training data:
+Example of shuffled test and training data:
 
 ![image](https://user-images.githubusercontent.com/76612427/115477773-87ab2100-a1f9-11eb-915c-754a12fc21ac.png)
 
