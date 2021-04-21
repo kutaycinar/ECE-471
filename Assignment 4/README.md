@@ -36,13 +36,22 @@ Estimated Total Size (MB): 0.97
 ```
 # Calculating Losses (Mannualy and Automatically)
 
+Loss functions are able to calculate how close to a given ground truth value a set of predictions are. The losses calculated serve as the basis for backpropagation methods.
+
+In this segment a function is created to manually calculate the cross-entropy loss of a set of predictions and compare it with that calculated by Pytorch. SVM Multiclass loss is also calculated for illustration purposes.
+
 ```
 Manual cross-entropy loss: 2.2924874871969223
 Reference cross-entropy loss: 2.292487621307373
-Multiclass SVM Loss:0.8851147294044495
+Multiclass SVM Loss: 0.8851147294044495
 ```
 
 # Training CNN
+
+Togheter with the creation of a network, the training routine represents the most important aspect of a DL-based image classification framework.
+
+This segment implements a training loop that predicts scores from batches of samples from the training set, and based on the losses (and gradients) calculated, updates the values of the network's parameters.
+
 ```
 Updated the best model!
 Epoch 0, Iteration 500 statistics:
@@ -82,7 +91,11 @@ Val acc:99.12777777777778
 
 End of the training loop!
 ```
+
 # Testing and Displaying the Detection Results
+
+The last segment involves the calculation of the performance of the trained model. In order to qualitatively evaluate the model, a function is created that receives a batch of samples, predicts their classes and displays the images, labels and predictions.
+
 ```
 Testing accuracy: 0.985
 ```
