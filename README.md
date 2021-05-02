@@ -12,13 +12,13 @@ Completed coursework for [ECE 471: Computer Vision (Spring 2021)](https://www.uv
 
 # In this repository
 
-## [A1: Programming: Introduction to Python, Colab and OpenCV](./Assignment%201)
+## [A1: Python and OpenCV ](./Assignment%201)
 ![image](https://user-images.githubusercontent.com/76612427/115480036-88928180-a1fe-11eb-9a75-fac366a0c265.png)
 
-## [A2: HOG: Pre-processing, Magniture and Orientation Calculation](./Assignment%202)
+## [A2: Histogram of Oriented Gradients (HOG)](./Assignment%202)
 ![image](https://user-images.githubusercontent.com/76612427/115479772-fb4f2d00-a1fd-11eb-948d-8b09c804370c.png) ![image](https://user-images.githubusercontent.com/76612427/115479785-05712b80-a1fe-11eb-8d52-cf8edb89085d.png) ![image](https://user-images.githubusercontent.com/76612427/115479798-10c45700-a1fe-11eb-95a8-969d50285a14.png)
 
-## [A3: Dataloading, Feature Extraction, Model Training and Evaluation](./Assignment%203)
+## [A3: Machine Learning (NB, SVM, LogR) ](./Assignment%203)
 ![image](https://user-images.githubusercontent.com/76612427/115479595-9267b500-a1fd-11eb-82ca-bc6837ce950f.png)
 
 ## [A4: Convoluted Neural Network Training with MNIST Database](./Assignment%204)
