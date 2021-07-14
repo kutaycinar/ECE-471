@@ -48,7 +48,7 @@ Multiclass SVM Loss: 0.8851147294044495
 
 # Training CNN
 
-Togheter with the creation of a network, the training routine represents the most important aspect of a DL-based image classification framework.
+Together with the creation of a network, the training routine represents the most important aspect of a DL-based image classification framework.
 
 A training loop is implemented that predicts scores from batches of samples from the training set, and based on the losses (and gradients) calculated, updates the values of the network's parameters.
 
